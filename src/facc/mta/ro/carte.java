@@ -3,12 +3,12 @@ package facc.mta.ro;
 public class carte implements Comparable<carte>{
     private String titlu;
     private String autor;
-    private int an_aparitie;
+    private int anPublicatie;
     private int numar_pagini;
 
     @Override
     public String toString() {
-        return this.titlu + " " + this.autor + " publicata in anul " + this.an_aparitie;
+        return this.titlu + " " + this.autor + " publicata in anul " + this.anPublicatie;
     }
 
     @Override
@@ -25,7 +25,7 @@ public class carte implements Comparable<carte>{
         this.titlu=titlu;
         this.autor=autor;
         this.numar_pagini=nr_pagini;
-        this.an_aparitie=an_aparitie;
+        this.anPublicatie =an_aparitie;
     }
 
 }
