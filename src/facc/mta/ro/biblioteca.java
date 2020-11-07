@@ -38,6 +38,11 @@ public class biblioteca {
 
     }
 
+    public void remove_book(carte c)
+    {
+        carti.remove(c);
+    }
+
     public ArrayList<carte> getCarti() {
         return carti;
     }
